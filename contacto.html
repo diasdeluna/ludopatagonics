@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="styleshhet" href="css/nosotros.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/line-awesome.css">
 </head>
@@ -26,42 +26,43 @@
         </div>
     </header>
 
-    <br>
-    <br>
 
     <main>
-
-        <section id="nosotros">
-            <div class="containerSomos">
-            <h2>Sobre Nosotros</h2>
-            <br>
-            <p class="subtitulo">¿QUIÉNES SOMOS?</p>
-            <br>
-            <p class="parrafo">Somos una pequeña comunidad ubicada en el extremo sur de Chile y</p>
-            <p class="parrafo">como vemos desde los pies hacia arriba decidimos tomar cartas en el asunto y crear este BLOG con la idea de intercambiar ideas y juegos.</p>
-            <br>
-            <p class="parrafo">Sabemos que no es fácil decidir ¿QUE COMPRAR? o ¿QUE JUGAR? Por esta razón creamos comunidad.</p>
-            <p class="parrafo">Sabemos que los juegos de mesa están por todas partes y que se encuentran en todos lados, pero ¿cómo empiezo?</p>
-            <p class="parrafo">con esta simple guía te damos la bienvenida a este nuevo mundo.</p>
-            </div>
-            <br>
-            <br>
-            <div class="containerMisionVision">
-                <h2>Mision</h2>
-                <p class="parrafo">
-                    Nos gusta ir más allá de la imaginación y descubrimos que la manera mas fácil de aprender y crear es jugando sin cesar, por esa razón nos dedicamos a desarrollar juegos y actividades para seguir aumentando esta gran comunidad.
+        <br>
+        <section id="formulario">
+  
+                <h2>Hola!</h2>
+                <p class="subtitulo">
+                    ¿Tienes dudas, consultas, comentarios o sugerencias?
                 </p>
-                <br>
-                <br>
-                <h2>Visión</h2>
-                <p class="parrafo">
-                    Nos gusta ir más allá de la imaginación y descubrimos que la manera mas fácil de aprender y crear es jugando sin cesar, por esa razón nos dedicamos a desarrollar juegos y actividades para seguir aumentando esta gran comunidad.
-                </p>
-            </div>
-            <br>
-            <br>
-            <p class="subtitulo2">Bienvenidos a LudoPatagonics</p>
-
+                <p class="subtitulo">Escríbenos y nos pondremos en contacto contigo a la brevedad. También puedes comunicarte con nosotros a través de nuestras redes sociales.</p>
+                
+                <div class="contactFormulario">
+                
+                  
+                  <form id="contact-form" class="form-horizontal" role="form">
+                     
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <input type="text" class="form-datos" id="name" placeholder="Nombre" name="name" value="" required>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <input type="email" class="form-datos" id="email" placeholder="Email" name="email" value="" required>
+                      </div>
+                    </div>
+                    <br>
+                    <textarea class="form-control" rows="10" placeholder="Mensaje" name="message" required></textarea>
+                    <br>
+                        <button class="formButton" id="submit" type="submit" value="SEND">ENVIAR</button>
+                    
+                    </button>
+                    
+                  </form>
+                </div>
+                  
         </section>
 
         <section id="contacto">
