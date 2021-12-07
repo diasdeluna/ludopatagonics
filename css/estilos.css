@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Martel:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #f6f2fd;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.containerMenu {
+    width: 98%;
+    margin: auto;
+}
+
+header .containerMenu{
+    display: table;
+}
+
+.containerMenu span{
+    font-family: 'Martel', serif;
+    font-size: 18px;
+    padding-top: 15px;
+    color: #fe0272;
+}
+
+
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+#banner{
+    margin-top: 50px;
+}
+
+#banner img{
+    width: 150%;
+    height: auto;
+}
+
+#banner .containerTextoBanner{
+    position: absolute;
+    top: 15rem;
+    left: 40%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+}
+
+#banner span{
+    font-size: 32px;
+    color: #6001FF;
+    font-family: 'Martel', serif;
+    font-weight: 700;
+}
+
+#banner p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #0B0827;
+}
+
+#banner a{
+    display: block;
+    width: 200px;
+    color: white;
+    background: #6001FF;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 3px solid #0B0827;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+#banner a:hover{
+    background: #9f7bed;
+    border: 3px solid white;
+}
+
+
+
+#nosotros{
+    background: #f6f2fd;
+    padding: 20px;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+}
+
+#nosotros .containerNosotros{
+    width: 100%;
+    padding: 10px 20px;
+    justify-content: center;
+}
+
+#nosotros h2{
+    font-size: 32px;
+    font-family: 'Martel', serif;
+    font-weight: 900;
+    color: #fe0272;
+    text-align: center;
+}
+
+#nosotros .subtitulo{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0B0827;
+    text-align: center;
+}
+
+#nosotros .parrafo{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #0B0827;
+    text-align: center;
+    justify-content: center;
+}
+
+#nosotros .subtitulo2{
+    font-size: 24px;
+    font-family: 'Martel', serif;
+    font-weight: 900;
+    color:#fe0272;
+    text-align: center;
+}
+
+
+
+#resenas{
+    text-align: center;
+    padding: 20px;
+    background-color: #fe0272;
+}
+
+#resenas h3{
+    font-size: 32px;
+    font-family: 'Martel', serif;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+#resenas button{
+    height: 25px;
+    width: 135px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background: #6001FF;
+    border: 3px solid #0B0827;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+#resenas button:hover{
+    background: #9f7bed;
+    border: 3px solid white;
+}
+
+#resenas .subtitulo{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color:#0B0827;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#resenas p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #0B0827;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+}
+
+#resenas input{
+        background-color: #fbfbfb; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: gainsboro;
+        padding-left: 5px;
+        margin-bottom: 10px;
+        padding: 10px 15px;
+        width: 90%;
+}
+
+#resenas .containerResenas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.resena{
+    margin: 20px;
+}
+
+.resena img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.resena img:hover{
+    border: 5px solid #6001FF;
+}
+
+
+
+
+#galeria h4{
+    font-size: 32px;
+    font-family: 'Martel', serif;
+    font-weight: 900;
+    color: #fe0272;
+    text-align: center;
+}
+
+#galeria p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #0B0827;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#galeria .containerGaleria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#galeria .containerGaleria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#galeria .subtitulo{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0B0827;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#galeria .subtitulo:hover{
+    color: #6001FF;
+}
+
+#galeria article{
+    margin: 15px;
+}
+
+#galeria img{
+    width: 100%;
+    max-width: 280px;
+}
+
+
+
+#contacto{
+    text-align: center;
+    padding: 20px;
+    background-color: #f6f2fd;
+    margin-bottom: 0;
+}
+
+
+#contacto .containerSuscripcion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: 300px;
+}
+
+#contacto h5 {
+    font-family: 'Martel', serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: #fe0272;
+	margin-bottom: 18px;
+}
+
+#contacto .parrafo {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #0B0827;
+	max-width: 450px;
+	text-align: center;
+	margin-bottom: 53px;
+	line-height: 1.5;
+}
+
+.form {
+	margin-bottom: 25px;
+}
+
+.formEmail {
+	padding: 20px 25px;
+ 	border: 2px solid #CAD3DB;
+	width: 431px;
+	font-size: 18px;
+	color: #0F121F;
+}
+
+.formButton {
+	background: #6001FF;
+    border: 3px solid #0B0827;
+	padding: 10px;
+	width: 244px;
+	height: 65px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.formButton:hover {
+    background: #9f7bed;
+    border: 3px solid white;
+}
+
+
+.containerSociales{
+    background-color: #fe0272;
+    display: flex;
+    justify-content: center;
+}
+
+.containerSociales ul{
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.containerSociales a{
+    padding: 15px;
+}
+
+.containerSociales img{
+    height: 30px;
+    width: auto;
+}
+
+
+
+
+
+
+@media (min-width:1024px){
+    .container{
+        width: 1000px;
+    }
+}
+
+@media (min-width:480px) {
+    #banner h2{
+        font-size: 40px;
+    }
+
+    #banner a{
+        margin-top: 25px;
+    }
+}
+
+
+@media (min-width:768px) {
+    #banner{
+        height: 300px;
+        overflow: hidden;
+    }
+
+    #banner img{
+        height: auto;
+        margin-top: -100px;
+    }
+}
+
+
+@media (min-width: 1024px){
+    #banner img{
+        margin: -200px;
+    }
+}
+
+
+@media (min-width:480px){
+    .info{
+        width: 40%;
+    }
+}
+
+
+@media (min-width:1024px){
+    .info{
+        width: auto;
+    }
+}
+
+
+@media (min-width:768px){
+    .rrss{
+        width: auto;
+    }
+
+    footer .container{
+        justify-content: space-between;
+    }
+}
