@@ -9,7 +9,7 @@
 
 header{
     width: 100%;
-    height: 50px;
+    height: 70px;
     background: #f6f2fd;
     color: black;
     position: fixed;
@@ -37,11 +37,16 @@ header .containerMenu{
     color: #fe0272;
 }
 
+.containerMenu img{
+    height: 70px;
+    width: auto;
+}
+
 
 
 section{
     width: 100%;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 
@@ -50,7 +55,7 @@ section{
 }
 
 #banner img{
-    width: 150%;
+    width: 120%;
     height: auto;
 }
 
@@ -64,15 +69,17 @@ section{
 
 #banner span{
     font-size: 32px;
-    color: #6001FF;
+    color:#fe0272;
     font-family: 'Martel', serif;
-    font-weight: 700;
+    font-weight: 900;
+    background-color: rgba(246,242,253,0.5)
 }
 
 #banner p{
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: #0B0827;
+    background-color: rgba(246,242,253,0.5)
 }
 
 #banner a{
@@ -98,13 +105,12 @@ section{
 
 #nosotros{
     background: #f6f2fd;
-    padding: 20px;
     height: auto;
     justify-content: center;
     align-content: center;
     justify-items: center;
-    margin-bottom: 0;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #nosotros .containerNosotros{
@@ -121,6 +127,22 @@ section{
     text-align: center;
 }
 
+#nosotros a{
+    text-decoration: none;
+}
+
+#nosotros h2:hover{
+    color: #6001FF;
+}
+
+#nosotros img{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #nosotros .subtitulo{
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -130,11 +152,20 @@ section{
 }
 
 #nosotros .parrafo{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Martel', serif;
     font-size: 16px;
     color: #0B0827;
+    font-weight: 700;
     text-align: center;
     justify-content: center;
+}
+
+#nosotros .parrafo2{
+    font-size: 20px;
+    font-family: 'Martel', serif;
+    font-weight: 900;
+    color:#ffffff;
+    text-align: center;
 }
 
 #nosotros .subtitulo2{
@@ -143,6 +174,59 @@ section{
     font-weight: 900;
     color:#fe0272;
     text-align: center;
+    margin-top: 20px;
+}
+
+#nosotros .containerSomos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#nosotros .containerMision{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fe0272;
+    color:#ffffff;
+}
+
+.containerMision h6{
+    font-size: 32px;
+    font-family: 'Martel', serif;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#nosotros .containerVision{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#f6f2fd;
+}
+
+#nosotros .parrafo3{
+    font-size: 20px;
+    font-family: 'Martel', serif;
+    font-weight: 900;
+    color:#fe0272;
+    text-align: center;
+}
+
+#nosotros .bienvenidos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+}
+
+#nosotros .subtitulo3{
+    font-size: 32px;
+    font-family: 'Martel', serif;
+    font-weight: 900;
+    color:#fe0272;
+    text-align: center;
+    margin-top: 20px;
 }
 
 
@@ -151,6 +235,7 @@ section{
     text-align: center;
     padding: 20px;
     background-color: #fe0272;
+    margin-top: 30px;
 }
 
 #resenas h3{
@@ -159,6 +244,14 @@ section{
     font-weight: 900;
     color: white;
     text-align: center;
+}
+
+#resenas a{
+    text-decoration: none;
+}
+
+#resenas h3:hover{
+    color: #6001FF;
 }
 
 #resenas button{
@@ -233,6 +326,9 @@ section{
 
 
 
+#galeria{
+    padding-top: 30px;
+}
 
 #galeria h4{
     font-size: 32px;
@@ -240,6 +336,14 @@ section{
     font-weight: 900;
     color: #fe0272;
     text-align: center;
+}
+
+#galeria a{
+    text-decoration: none;
+}
+
+#galeria h4:hover{
+    color: #6001FF;
 }
 
 #galeria p{
@@ -375,6 +479,7 @@ section{
     height: 30px;
     width: auto;
 }
+
 
 
 

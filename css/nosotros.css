@@ -1,0 +1,17 @@
+
+#nosotros h2{
+    font-size: 32px;
+    font-family: 'Martel', serif;
+    font-weight: 900;
+    color: #fe0272;
+    text-align: center;
+}
+
+#nosotros .containerMision{
+    text-align: center;
+    background-color: #fe0272;
+}
+
+#nosotros .containerVision{
+
+}

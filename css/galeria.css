@@ -1,3 +1,7 @@
+#galeriaFotos{
+    margin-top: 20px;
+}
+
 #galeriaFotos h1{
     font-size: 32px;
     font-family: 'Martel', serif;
@@ -46,7 +50,7 @@
 }
 
 #galeriaFotos img{
-    width: 100%;
+    width: 80%;
     max-width: 280px;
 }
 

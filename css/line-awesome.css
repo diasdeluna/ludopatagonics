@@ -6,7 +6,7 @@
 .lab {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  display: inline-block;
+  display: -block;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
@@ -160,7 +160,6 @@
           filter: none; }
 
 .la-stack {
-  display: inline-block;
   height: 2em;
   line-height: 2em;
   position: relative;
